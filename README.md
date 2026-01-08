@@ -1,13 +1,22 @@
-# Pulse-AI (JARVIS)
-A Python-based AI assistant with voice recognition and system monitoring.
+# 🛡️ Pulse-AI (JARVIS)
+Pulse-AI is a high-performance Python assistant featuring voice interaction, system health monitoring, and an integrated security vault.
 
-## Features
-- **Voice Recognition:** Powered by SpeechRecognition and Google API.
-- **Voice Output:** Uses pyttsx3 (SAPI5).
-- **System Monitoring:** Live CPU/RAM tracking via psutil.
-- **Security:** Integrated Vault-X encryption system.
+## 🚀 Features
+- **Vocal Interface:** Natural language processing using Google Speech API.
+- **System Dashboard:** Real-time visual tracking of CPU and RAM usage.
+- **Web Integration:** Quick-launch commands for YouTube and Google searches.
+- **Vault-X Security:** An integrated encryption layer for sensitive data.
 
-## Setup
-1. Install Python 3.13
-2. Install dependencies: `pip install pyttsx3 SpeechRecognition pyaudio psutil`
-3. Run `python jarvis_final.py`
+## 🎤 Voice Commands
+| Command | Action |
+| :--- | :--- |
+| "Jarvis, Status" | Reports current CPU and RAM health. |
+| "Jarvis, Google [Search]" | Opens a web browser with your search query. |
+| "Jarvis, Open Vault" | Triggers the Vault-X security protocol. |
+| "Jarvis, Goodbye" | Safely terminates the AI session. |
+
+## 🛠️ Installation
+1. **Requirements:** Python 3.13 and a working Microphone.
+2. **Install Dependencies:**
+   ```bash
+   pip install pyttsx3 SpeechRecognition pyaudio psutil
